@@ -1,6 +1,6 @@
 # sviesoforas
  
-DONE (pagražinta)
+DONE (pagražinta) - https://karolisptasinskas.github.io/sviesoforas/
 
 1. Pažaidžiau su "giro 300"
 2. Sulyginau "justify" tekstus
