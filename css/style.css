@@ -1,0 +1,107 @@
+.main {
+    background-color: white;
+    color: rgb(177, 175, 175);
+    width: 800px;
+    margin: 0 calc((100% - 800px) / 2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* PUSLAPIO VIRŠUS */
+
+.top {
+    display: block;
+    border-color: rgb(177, 175, 175);
+    border-bottom-style: solid;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+/* PUSLAPIO APAČIA */
+
+.bottom {
+    border-color: rgb(177, 175, 175);
+    border-bottom-style: solid;
+}
+
+.bottom > * {
+    display: inline-block;
+    width: 48%;
+}
+
+/* APAČIA -> KAIRĖ */
+
+.bottom-left-inline {
+    vertical-align: top;
+    height: 613px;
+}
+
+.bottom-left {
+    margin: 100px 0 0 0;
+}
+
+.bottom-left > * {
+    display: inline-block;
+}
+
+.bottom-left p {
+    font-size: 14px;
+}
+
+.bottom-left a {
+    color: red;
+}
+
+h1 {
+    color: red;
+    font-size: 30px;
+}
+
+.bottom-left-bottom > * {
+    display: inline-block;
+}
+
+.giro-left {
+    width: 85%;
+}
+
+.giro {
+    width: 12%; 
+    border-color: black;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    transform: rotate(10deg);
+}
+
+.giro * {
+    margin: 0;
+}
+
+.giro p {
+    font-size: 18px;
+    color: black
+}
+
+/* REIKIA TVARKINGAI PADĖTI .LOGO ŽEMYN. >>>>>>>>> NESUTVARKYTA <<<<<<<<<< */
+
+.logo {
+    margin-top: 115px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.logo img {
+    width: 200px;
+}
+
+/* APAČIA -> DEŠINĖ */
+
+.bottom-right {
+    margin: 0 0 0 5px;
+}
+
+.bottom-right img {
+    width: 100%;
+}
+
