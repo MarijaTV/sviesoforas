@@ -16,6 +16,7 @@
 
 h2 {
     margin: 10px 0;
+    transform: scale(1, 1.2);
 }
 
 /* PUSLAPIO APAČIA */
@@ -23,30 +24,29 @@ h2 {
 .bottom {
     border-color: rgb(177, 175, 175);
     border-bottom-style: solid;
+    display: flex;
+    flex-direction: row;
 }
 
 .bottom > * {
-    display: inline-block;
-    width: 48%;
+    width: 400px;
 }
 
 /* APAČIA -> KAIRĖ */
 
 .bottom-left-inline {
-    vertical-align: top;
-    height: 613px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 
 .bottom-left {
-    margin: 100px 0 0 0;
+    margin: 40px 0 0 0;
 }
 
-.bottom-left > * {
-    display: inline-block;
-}
-
-.bottom-left p {
+.p14 {
     font-size: 14px;
+    text-align: justify;
 }
 
 .bottom-left a {
@@ -56,6 +56,7 @@ h2 {
 h1 {
     color: red;
     font-size: 30px;
+    text-align: justify;
 }
 
 .bottom-left-bottom > * {
@@ -63,45 +64,53 @@ h1 {
 }
 
 .giro-left {
-    width: 85%;
+    width: 75%;
 }
 
 .giro {
-    width: 12%; 
+    width: 15%; 
     border-color: black;
     border-top-style: solid;
     border-bottom-style: solid;
-    transform: rotate(10deg);
-}
-
-.giro * {
-    margin: 0;
+    padding-bottom: 3px;
+    transform: rotate(7deg);
+    margin-left: 7%;
 }
 
 .giro p {
-    font-size: 18px;
-    color: black
+    color: black;
+    font-weight: bold;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    line-height: 0.9;
 }
 
-/* REIKIA TVARKINGAI PADĖTI .LOGO ŽEMYN. >>>>>>>>> NESUTVARKYTA <<<<<<<<<< */
+.girotxt {
+    font-size: 19px;
+    transform: scale(1, .9);
+
+}
+
+.giro300 {
+    font-size: 27px;
+    transform: scale(1, 1.2);
+}
 
 .logo {
-    margin-top: 115px;
-    display: inline-block;
-    vertical-align: bottom;
+    margin-top: auto;
 }
 
 .logo img {
-    width: 200px;
+    width: 300px;
 }
 
 /* APAČIA -> DEŠINĖ */
 
-.bottom-right {
-    margin: 0 0 0 5px;
-}
-
 .bottom-right img {
-    width: 100%;
+    width: 350px;
+    display:block;
+    margin:auto;
 }
 
